@@ -33,5 +33,11 @@
         "path": "./themes/Pop Dark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:compile": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0"
   }
 }
